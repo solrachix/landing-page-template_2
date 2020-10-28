@@ -65,11 +65,14 @@ export const Container = styled.section`
         position: relative;
         top: 0%;
         right: 0%;
-        width: 30rem;
+        width: 100%;
+
+
         @media screen and (min-width: 60em){
           position: absolute;
           top: 2%;
           right: 1%;
+          width: 30rem;
         }
       }
 

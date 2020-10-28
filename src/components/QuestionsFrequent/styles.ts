@@ -36,10 +36,13 @@ export const Question = styled.div`
     align-items: center;
 
     width: 100%;
-    height: 80px;
-    padding: 0 35px;
+    min-height: 80px;
+    padding: 20px 35px;
 
     font-size: 24px;
+    @media (max-width: 960px) {
+      font-size: 16px;
+    }
 
     background-color: ${props => props.theme.colors.themeColors.background.dark};
     border: none;

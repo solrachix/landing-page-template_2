@@ -48,6 +48,11 @@ export const Container = styled.div`
           height: 80px;
 
           filter: opacity(0.5);
+
+          @media screen and (max-width: 60em){
+            width: 40px;
+            height: 40px;
+          }
         }
 
         p{
@@ -84,8 +89,18 @@ export const Container = styled.div`
             bottom: 0px;
           }
 
+          span {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            color: ${props => props.theme.colors.themeColors.text.normal};
+            font-size: 14px;
+            line-height: 36px;
+          }
 
           @media (max-width: 1170px) {
+            width: 30px;
+            height: 30px;
             position: relative;
             display: block;
             
@@ -96,14 +111,11 @@ export const Container = styled.div`
             &:after, &:before {
               display: none;
             }
-          }
-          span {
-            display: block;
-            text-align: center;
-            font-weight: bold;
-            color: ${props => props.theme.colors.themeColors.text.normal};
-            font-size: 14px;
-            line-height: 36px;
+
+            span {
+              font-size: 14px;
+              line-height: 26px;
+            }
           }
         }
 

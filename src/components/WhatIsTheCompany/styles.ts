@@ -46,9 +46,9 @@ export const Container = styled.section`
       }
 
       @media (max-width: 1160px){
-        width: 453px;
-        height: 453px;
-        transform: translate(0,0);
+        width: 100%;
+        /* height: 453px; */
+        transform: translate(0, -16%);
       }
     }
   }
