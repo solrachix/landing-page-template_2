@@ -5,13 +5,17 @@ import teacher from '../../assets/teacher.svg'
 export const Container = styled.section`
   box-sizing: border-box;
   min-width: 0;
+  max-width: 1000px;
   margin: 0;
   margin-top: 445px;
+  margin-left: auto;
+  margin-right: auto;
   
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+
 
   @media screen and (min-width: 60em) {
     margin-top: 100px;
@@ -27,7 +31,7 @@ export const Container = styled.section`
       content: '';
       position: absolute;
       top: 0;
-      left: 0;
+      left: -20%;
       bottom: 0;
       width: 888px;
       height: 888px;
@@ -42,11 +46,13 @@ export const Container = styled.section`
         /* background: url(/_next/static/images/toptech-about-wait-mb-4d0cb9e….svg) center no-repeat; */
         transform: translate(0,-35%);
         right: 0;
+        left: 0;
         margin: auto;
       }
 
       @media (max-width: 1160px){
         width: 100%;
+        left: 0;
         /* height: 453px; */
         transform: translate(0, -16%);
       }
