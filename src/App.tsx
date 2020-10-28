@@ -10,7 +10,7 @@ import { DarkTheme } from './styles/themes'
 import { Container } from './styles/App'
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState(DarkTheme)
+  const [theme] = useState(DarkTheme)
 
   return (
     <ThemeProvider theme={theme}>

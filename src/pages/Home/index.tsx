@@ -4,7 +4,7 @@ import API from '../../data.json'
 
 import Header from '../../components/Header'
 import WhatIsTheCompany from '../../components/WhatIsTheCompany'
-import Testimony from '../../components/Testimony'
+// import Testimony from '../../components/Testimony'
 import WhatToExpect from '../../components/WhatToExpect'
 import CourseContent from '../../components/CourseContent'
 import QuestionsFrequent from '../../components/QuestionsFrequent'
