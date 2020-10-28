@@ -76,7 +76,7 @@ export const Question = styled.div`
 
   .response{
     display: none;
-    padding: 20px 100px;
+    padding: 20px 10%;
 
     font-size: 16px;
     line-height: 30px;
