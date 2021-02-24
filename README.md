@@ -3,7 +3,7 @@
 
   
 
-![Open React template preview](ttps://github.com/solrachix/landing-page-template_2/blob/master/Template.png?raw=true)
+![Open React template preview](https://github.com/solrachix/landing-page-template_2/blob/master/Template.png?raw=true)
 
   
 
